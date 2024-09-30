@@ -1,2 +1,33 @@
+#user-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
 
-/* Your CSS Code here. */
+#user-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#additional-info {
+    text-align: center;
+}
+
+#getUser {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    cursor: pointer;
+}
